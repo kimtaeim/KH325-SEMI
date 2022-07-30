@@ -12,7 +12,7 @@ import static com.ulsan.common.FestivalCommon.*;
 
 public class FestivalDao {
 	
-	// 축제 전체 조회
+	// 異뺤젣 �쟾泥� 議고쉶
 	public List<Festival> selectAll(Connection conn) {
 		List<Festival> list = new ArrayList<>();
 		try {
@@ -47,8 +47,8 @@ public class FestivalDao {
 		}
 		return list;
 	}
-	
-	// 축제 검색
+	// 김태임 수정 
+	// 異뺤젣 寃��깋
 	public List<Festival> search(Connection conn, int searchType, String keyword) {
 		List<Festival> list = new ArrayList<>();
 		String type = "";
