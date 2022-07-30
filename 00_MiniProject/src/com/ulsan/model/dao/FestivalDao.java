@@ -46,7 +46,7 @@ public class FestivalDao {
 			e.printStackTrace();
 		}
 		return list;
-	}
+	}//수아 수정
 	// 김태임 수정 
 	// 異뺤젣 寃��깋
 	public List<Festival> search(Connection conn, int searchType, String keyword) {
