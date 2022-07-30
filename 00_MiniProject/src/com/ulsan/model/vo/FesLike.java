@@ -19,6 +19,8 @@ public class FesLike {
 		super();
 	}
 
+	
+	
 	public FesLike(int likeNo, int userNo, int fesNo, String fesName, 
 				   String fesPlace, Date fesStart, Date fesEnd, 
 				   String fesPhone, String fesAdd) {
